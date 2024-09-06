@@ -23,7 +23,7 @@ const Contact = () => {
           Our Location</h1> <p>30N GOULD st STE N, Sheridan, WY82801</p>
             </>} />
           <Card text={<><img width={"100%"} src={emailImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
-          Our Email Addres</h1>  <p>support@valuedclaimsubmission.com</p></>} />
+          Our Email Addres</h1>  <p>support@valuedclaim<br/>submission.com</p></>} />
           <Card text={<><img width={"100%"} src={contactImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
           Our Contact Number</h1> <p>+12605730264</p></>} />
         </div>
