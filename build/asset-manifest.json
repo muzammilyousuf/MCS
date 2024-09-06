@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d1a14de.css",
+    "main.js": "/static/js/main.cb515474.js",
+    "static/js/453.2f43e1cf.chunk.js": "/static/js/453.2f43e1cf.chunk.js",
+    "static/media/New-Project-1.jpg": "/static/media/New-Project-1.ae17ce64cc8c903bb361.jpg",
+    "static/media/Gemini_Generated_Image_v0l3kev0l3kev0l3.jpeg": "/static/media/Gemini_Generated_Image_v0l3kev0l3kev0l3.60dbea3b4169a77a7a17.jpeg",
+    "static/media/Gemini_Generated_Image_egzimjegzimjegzi.jpeg": "/static/media/Gemini_Generated_Image_egzimjegzimjegzi.b77c91ce82a8452618ac.jpeg",
+    "static/media/larki.png": "/static/media/larki.1323c821f47abeec9c29.png",
+    "static/media/pngtree-shiny-yellow-star-icon-clipart-png-image_9011244.png": "/static/media/pngtree-shiny-yellow-star-icon-clipart-png-image_9011244.bab53a3ff8655fb167eb.png",
+    "static/media/doctor.png": "/static/media/doctor.4fd0a287514b15ade0bb.png",
+    "static/media/mail-1454731_640.webp": "/static/media/mail-1454731_640.ee7e898884c903405393.webp",
+    "static/media/CMRS_Study_Guide-2.jpg": "/static/media/CMRS_Study_Guide-2.8868df851e920748c11e.jpg",
+    "static/media/logo.png": "/static/media/logo.5c8e28cd11581a3cf880.png",
+    "static/media/email.svg.png": "/static/media/email.svg.939b99c38d5e543adf63.png",
+    "static/media/365318947.jpg": "/static/media/365318947.9bf2674c620331f39cbb.jpg",
+    "static/media/user-06.jpg": "/static/media/user-06.baa4507ccc2cd5786a35.jpg",
+    "static/media/7373278.png": "/static/media/7373278.ef782a986b7802847ceb.png",
+    "static/media/location.png": "/static/media/location.eb8073289de8df91ad89.png",
+    "static/media/HIPPA-Compliance.png-1024x585.webp": "/static/media/HIPPA-Compliance.png-1024x585.b61b5e29835c0ba7d35a.webp",
+    "static/media/5548129.png": "/static/media/5548129.d64072945a4ed9c8a710.png",
+    "static/media/phone-call-icon-design-in-blue-circle-png.webp": "/static/media/phone-call-icon-design-in-blue-circle-png.042d752bfa0a447a040d.webp",
+    "static/media/15959.webp": "/static/media/15959.d2b254729087e511eeed.webp",
+    "index.html": "/index.html",
+    "main.1d1a14de.css.map": "/static/css/main.1d1a14de.css.map",
+    "main.cb515474.js.map": "/static/js/main.cb515474.js.map",
+    "453.2f43e1cf.chunk.js.map": "/static/js/453.2f43e1cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d1a14de.css",
+    "static/js/main.cb515474.js"
+  ]
+}
