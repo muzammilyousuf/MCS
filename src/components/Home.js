@@ -21,15 +21,10 @@ import callIcon from "../images/phone-call-icon-design-in-blue-circle-png.webp"
 import emailIcon from "../images/mail-1454731_640.webp"
 
 const Home = () => {
-  let imageStyle = {
-    backgroundImage:
-      "url(https://plus.unsplash.com/premium_photo-1701892428860-ca4913e92274?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
-    backgroundSize: "100%",
-    backgroundRepeat: "no-repeat",
-  };
+   
   return (
     <div id="home-div">
-      <div style={imageStyle} id="banners-div">
+      <div  id="banners-div">
         <div id="banner1-div">
           <h2>Here we are</h2>
           <br />
@@ -59,12 +54,14 @@ const Home = () => {
       </div>
 
 
-      <div id="banners-div">
-        <div id="banner4-div">
+      <div id="sections-div">
+        <div id="banner3-div">
           <img width={600} src={doctor}></img>
         </div>
-        <div id="banner3-div">
-          <h2 style={{ fontSize: 30 }}>Best Healthcare</h2>
+        <div id="banner4-div">
+        <div className="description">
+          <h1 style={{ fontSize: 30 }}>Best Healthcare</h1>
+          <br/>
           <p>Welcome to Valued Claim Submission, where excellence meets<br /> efficiency in healthcare revenue management. With a<br /> dedicated team of seasoned professionals, we specialize in<br /> streamlining medical billing processes to optimize<br /> reimbursements for our clients. Leveraging cutting-edge <br />technology and industry insights, we ensure seamless revenue<br /> cycle management, allowing healthcare providers to focus on<br /> patient care with confidence..</p>
           <br />
           <h1 style={{ fontSize: 30 }}>Accurate</h1>
@@ -73,16 +70,17 @@ const Home = () => {
           <h1 style={{ fontSize: 30 }}>Trustworthy</h1>
           <p>Trust Valued Claim Submission for unparalleled expertise <br />and results-driven solutions..</p>
         </div>
+        </div>
       </div>
 
       <div id='section2'>
         <div id="heading"><h1>Best Medical Services</h1></div>
         <div id="banner5">
-          <Card text={<><img width={"100%"} src={img4} /><h1 style={{ fontSize: 30, textAlign: "center", color: "black" }}>
+          <Card text={<><img width={"100%"} src={img4} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
             Bank Statement Reconciliation</h1> <br /></>} />
-          <Card text={<><img width={"100%"} src={img5} /><h1 style={{ fontSize: 30, textAlign: "center", color: "black" }}>
+          <Card text={<><img width={"100%"} src={img5} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
             Practice Analysis (Free Of Cost)</h1> <br /></>} />
-          <Card text={<><img width={"100%"} src={img6} /><h1 style={{ fontSize: 30, textAlign: "center", color: "black" }}>
+          <Card text={<><img width={"100%"} src={img6} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
             Virtual Assistance</h1> <br /></>} />
         </div>
       </div>
@@ -94,17 +92,15 @@ const Home = () => {
           <button className="banner1-btn cursor-hand" onClick={()=>window.location.href='tel:+15182824526'}>Call Us </button>
         </div>
         <div className="banner6">
-          <Card text={<><img width={"30%"} src={img7} /><h1 style={{ color: "black" }}>
-            Expertise and Experience:</h1> <br /> <p>Benefit from our extensive experience in the medical billing industry.</p> </>} />
-          <Card text={<><img width={"30%"} src={img10} /><h1 style={{ color: "black" }}>
-          Cutting-Edge Technology:</h1> <br /> <p>Stay ahead with our commitment to leveraging the latest in technology.</p> </>} />
-
+          <Card text={<><img width={50} src={img7} /><h1 style={{ color: "black" }}>
+            Expertise and Experience:</h1> <p>Benefit from our extensive experience in the medical billing industry.</p> </>} />
+            
         </div>
         <div className="banner6">
-          <Card text={<><img width={"35%"} src={img9} /><h1 style={{ color: "black" }}>
-            Tailored Solutions:</h1> <br /> <p>We understand that every healthcare practice is unique.</p> </>} />
-          <Card text={<><img width={"30%"} src={img8} /><h1 style={{ color: "black" }}>
-            Comprehensive Service Suite:</h1> <br /> <p>Experience the convenience of a one-stop solution.</p> </>} />
+          <Card text={<><img width={50} src={img9} /><h1 style={{ color: "black" }}>
+            Tailored Solutions:</h1>  <p>We understand that every healthcare practice is unique.</p> </>} />
+           
+           
         </div>
         
       </div>

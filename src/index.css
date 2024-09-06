@@ -1,30 +1,57 @@
-#home-div {
-  padding: 2;
+*{
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
-  margin-left: -159px;
+}
+
+#main-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
 }
 
 #header {
   display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 400%;
+  height: 159px;
 }
 
-#home,
+#logo-div{
+  width: 10%;
+  height: 100%;
+}
+
+#logo-div a img {
+  width: 100%;
+  height: 100%;
+}
+
+#top-bar-div {
+  width: 90%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+#home-div,
 #about,
 #contact {
   display: flex;
   flex-direction: column;
-}
-
-#about,
-#contact {
-  margin-left: -159px;
+  margin-left: -10%;
 }
 
 #about-div{
   display: flex;
+  width:100%;
+  height:100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,20 +63,44 @@
   height: 500px;
 }
 
-#banners{
-  display: flex;
-  width: 100%;
-  height: 700px;
-  justify-content: center;
-  text-align: center;
-  padding:20px ;
-  flex-direction: column;
-}
-
 #banners-div {
   display: flex;
   width: 100%;
-  height: 700px;
+  height: 100%;
+  background-image: url(
+      "https://plus.unsplash.com/premium_photo-1701892428860-ca4913e92274?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+}
+
+#banner1-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: auto;
+  height: 50%;
+  padding: 5%;
+}
+
+.banner1-btn {
+  margin-top: 50px;
+  color: White;
+  background-color: #0043C6;
+  width: 50%;
+  height: 100%;
+  border-radius: 24px;
+  border-color: blue;
+}
+
+#banner2-div {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  margin-top: 5%;
+  padding: 5%;
+  background-color: rgb(174, 206, 226);
+}
+
+.description{
+  margin-top: auto;
 }
 
 #banners-contact-div {
@@ -59,13 +110,14 @@
   height: 500px;
 }
 
+
 #banner1-contact-div{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   padding: 5%;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 
 #banner2-contact-div {
@@ -77,91 +129,113 @@
   background-color: rgb(174, 206, 226);
 }
 
-#banner1-div {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-top: 250px;
-  justify-content: bottom;
-  height: 50px;
-  padding: 5%;
-}
-
-.banner1-btn {
-  margin-top: 50px;
-  color: White;
-  background-color: #0043C6;
-  width: 50%;
-  height: 100px;
-  border-radius: 24px;
-  border-color: blue;
-}
-
-#banner2-div {
-  display: flex;
-  width: 50%;
-  padding: 5%;
-  background-color: rgb(174, 206, 226);
-}
-
-#banner3-div {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height: 50px;
-  margin-top: 5%;
-}
-
-#banner4-div {
-  display: flex;
-  width: 50%;
-  padding: 5%;
-
-}
-
-#logo-div a img {
-  width: 159px;
-  height: 159px;
-}
-
-
 #section {
-  padding: 50px;
+  
   display: flex;
-  height: 300px;
+  height: 400px;
+  width:100%;
   flex-direction: row;
   justify-content: space-between;
   background-color: #0043C6C2;
 }
 
+.card {
+  width: 30%;
+  height: 20%;
+  border-radius: 8px;
+  color: aliceblue;
+  font-size: larger;
+  padding: 30px
+}
+
+#sections-div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#banner3-div {
+  display: flex;
+  width: 50%;
+  padding: 5%;
+}
+
+#banner4-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin-top: auto;
+  padding: 5%;
+}
 
 #section2 {
   padding: 50px;
   display: flex;
-  height: 600px;
+  height: 100%;
+  width:100%;
   flex-direction: column;
   justify-content: space-between;
   background-color: lightgrey;
 }
 
-#contactSection2{
-  padding: 2;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: rgb(174, 206, 226);
-  margin-left: -100px;
+#banner5 {
+  display: flex;
+  width:100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
 #section3 {
-  padding: 100px;
+  padding: 5%;
   display: flex;
-  height: 600px;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
   background-color: white;
 }
+
+
+#section3-part1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 100px;
+
+}
+
+
+.banner6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height:500px;
+  padding-top: 15%;
+}
+
+.banner7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height:100%;
+  padding-Bottom:5%;
+}
+#contactSection2{
+  padding: 2;
+  margin: 0;
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  background-color: rgb(174, 206, 226);
+  margin-left: 0px;
+}
+
+
+
 #section4 {
   display: flex;
   flex-direction: column;
@@ -170,29 +244,18 @@
   height: 300px;
   background-color: lightgrey;
 }
-
-
-
-#section3-part1 {
+#section0 {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-top: 100px;
-}
-
-#banner5 {
-  display: flex;
-  height: 500px;
-  flex-direction: row;
   justify-content: space-between;
+  padding: 50px;
+  height: 300px;
 }
 
-.banner6 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
+
+
+
+
 
 .banner6 .card {
   height:200px;
@@ -211,14 +274,7 @@
   text-align: center;
 }
 
-.card {
-  width: 30%;
-  height: 150px;
-  border-radius: 8px;
-  color: aliceblue;
-  font-size: larger;
-  padding: 30px
-}
+
 
 #email{
   display: flex;
@@ -234,25 +290,16 @@
   justify-content: center;
 }
 
-#top-bar-div {
-  width: 100%;
-}
 
-nav {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 34px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
+
+
 #footer {
   background-color: #0043C6C2;
   padding: 10px;
   text-align: center;
   color: white;
   width:100%;
-  height:200px
+  height:100%
 }
 * {
   margin: 0;
@@ -295,13 +342,7 @@ a:hover {
   flex-direction: column;
 }
 
-.contactDetails{
-  display: flex;
-  width: 30%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 #fields{
   display: flex;

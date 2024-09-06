@@ -17,20 +17,15 @@ const Contact = () => {
   return (
     <div id='contact'>
       <div id='sectionCard'>
-        <div className="contactDetails">
-          <img src={locationImage} alt='location' width={100} />
-          <h1>Our Location</h1>
-          <p>30N GOULD st STE N, Sheridan, WY82801</p>
-        </div>
-        <div className="contactDetails">
-          <img src={emailImage} alt='email' width={100} />
-          <h1>Our Email Address</h1>
-          <p>support@valuedclaimsubmission.com</p>
-        </div>
-        <div className="contactDetails">
-          <img src={contactImage} alt='contact' width={100} />
-          <h1>Our Contact Number</h1>
-          <p>+12605730264</p>
+       
+        <div id="banner5">
+          <Card text={<><img width={"100%"} src={locationImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          Our Location</h1> <p>30N GOULD st STE N, Sheridan, WY82801</p>
+            </>} />
+          <Card text={<><img width={"100%"} src={emailImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          Our Email Addres</h1>  <p>support@valuedclaimsubmission.com</p></>} />
+          <Card text={<><img width={"100%"} src={contactImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          Our Contact Number</h1> <p>+12605730264</p></>} />
         </div>
       </div>
 
@@ -61,7 +56,7 @@ const Contact = () => {
                   <tr className='fields'>
                     <textarea type='text-aria' placeholder='Message'></textarea>
                   </tr>
-                <button className="banner1-btn" type="submit" >Schedule A Meeting</button>
+                <button className="banner1-btn" type="submit" >Schedule a Meeting</button>
                 </table>
               </form>
 

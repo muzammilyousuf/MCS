@@ -28,6 +28,7 @@ function MyApp() {
   return (
 
     <React.Fragment>
+      <div id="main-div">
       <div id="header">
         <div id="logo-div">
           <a href="/"><img src={logo} alt='logo' /></a>
@@ -35,6 +36,7 @@ function MyApp() {
         <div id="top-bar-div">
           <RouterProvider router={router} />
         </div>
+      </div>
       </div>
     </React.Fragment>
   )
