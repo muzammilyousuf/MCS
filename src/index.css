@@ -19,18 +19,17 @@
 }
 
 #logo-div{
-  width: 10%;
+  width: 50%;
   height: 100%;
 }
 
-#logo-div a img {
-  width: 100%;
-  height: 100%;
-}
 
 #top-bar-div {
-  width: 90%;
+  width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 nav {
@@ -45,7 +44,7 @@ nav {
 #contact {
   display: flex;
   flex-direction: column;
-  margin-left: -10%;
+ 
 }
 
 #about-div{
@@ -84,7 +83,7 @@ nav {
   margin-top: 50px;
   color: White;
   background-color: #0043C6;
-  width: 50%;
+  width: 100%;
   height: 100%;
   border-radius: 24px;
   border-color: blue;
@@ -145,7 +144,8 @@ nav {
   border-radius: 8px;
   color: aliceblue;
   font-size: larger;
-  padding: 30px
+  padding: 30px;
+  text-align: center;
 }
 
 #sections-div {
@@ -185,6 +185,7 @@ nav {
   height: 100%;
   flex-direction: row;
   justify-content: space-between;
+  margin:auto
 }
 
 #section3 {
@@ -212,8 +213,9 @@ nav {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height:500px;
-  padding-top: 15%;
+  height:auto;
+  margin: auto;
+
 }
 
 .banner7 {
@@ -224,14 +226,16 @@ nav {
   height:100%;
   padding-Bottom:5%;
 }
+
+
 #contactSection2{
-  padding: 2;
-  margin: 0;
+  padding: 2%;
+  margin: auto;
   width:100%;
   height:100%;
   box-sizing: border-box;
   background-color: rgb(174, 206, 226);
-  margin-left: 0px;
+ 
 }
 
 
@@ -246,16 +250,8 @@ nav {
 }
 #section0 {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 50px;
-  height: 300px;
+  
 }
-
-
-
-
-
 
 .banner6 .card {
   height:200px;
@@ -307,17 +303,10 @@ nav {
   font-size: large;
 }
 
-li {
-  list-style: none;
-  padding: 60px;
-}
+
 
 a li {
   color: rgb(0, 0, 0);
-}
-
-a:hover {
-  background-color: hsl(208, 100%, 70%);
 }
 
 .red {
@@ -325,7 +314,7 @@ a:hover {
 }
 
 #sectionCard{
-  height: 500px;
+  height: 400px;
 }
 
 #sectionCard, h1, p{
@@ -366,4 +355,61 @@ a:hover {
 .fields textarea{
   width: 100%;
   height: 150px;
+}
+
+
+/* Header.css */
+
+.sticky-header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the header is on top of other elements */
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Vertically center logo and menu */
+  width: 100%;
+  height: 50px;
+}
+
+.logo{
+  width: 10%;
+  height: 60px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%; /* Adjust the size of the logo */
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu li {
+  display: flex;
+  margin-left: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav li:hover {
+  background-color: #6aa8eb; /* Change color on hover */
 }

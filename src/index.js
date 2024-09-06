@@ -6,38 +6,23 @@ import Home from './components/Home'
 import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import logo from "./images/logo.png"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Header from './components/Header';
 
 function MyApp() {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <><Navbar /><Home /></>
-    },
-    {
-      path: '/About',
-      element: <><Navbar /><About /></>
-    },
-    {
-      path: '/Contact',
-      element: <><Navbar /><Contact /></>
-    }
-  ])
+  
   return (
 
     <React.Fragment>
-      <div id="main-div">
-      <div id="header">
-        <div id="logo-div">
-          <a href="/"><img src={logo} alt='logo' /></a>
-        </div>
-        <div id="top-bar-div">
-          <RouterProvider router={router} />
-        </div>
-      </div>
-      </div>
+       <Router>
+        <Header/>
+        <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      </Router>
     </React.Fragment>
   )
 }

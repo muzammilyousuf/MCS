@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5d1ed1c.css",
-    "main.js": "/static/js/main.2b5dd254.js",
+    "main.css": "/static/css/main.1d1a14de.css",
+    "main.js": "/static/js/main.cb515474.js",
     "static/js/453.2f43e1cf.chunk.js": "/static/js/453.2f43e1cf.chunk.js",
     "static/media/New-Project-1.jpg": "/static/media/New-Project-1.ae17ce64cc8c903bb361.jpg",
     "static/media/Gemini_Generated_Image_v0l3kev0l3kev0l3.jpeg": "/static/media/Gemini_Generated_Image_v0l3kev0l3kev0l3.60dbea3b4169a77a7a17.jpeg",
@@ -22,12 +22,12 @@
     "static/media/phone-call-icon-design-in-blue-circle-png.webp": "/static/media/phone-call-icon-design-in-blue-circle-png.042d752bfa0a447a040d.webp",
     "static/media/15959.webp": "/static/media/15959.d2b254729087e511eeed.webp",
     "index.html": "/index.html",
-    "main.e5d1ed1c.css.map": "/static/css/main.e5d1ed1c.css.map",
-    "main.2b5dd254.js.map": "/static/js/main.2b5dd254.js.map",
+    "main.1d1a14de.css.map": "/static/css/main.1d1a14de.css.map",
+    "main.cb515474.js.map": "/static/js/main.cb515474.js.map",
     "453.2f43e1cf.chunk.js.map": "/static/js/453.2f43e1cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5d1ed1c.css",
-    "static/js/main.2b5dd254.js"
+    "static/css/main.1d1a14de.css",
+    "static/js/main.cb515474.js"
   ]
 }

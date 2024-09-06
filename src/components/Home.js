@@ -28,12 +28,12 @@ const Home = () => {
         <div id="banner1-div">
           <h2>Here we are</h2>
           <br />
-          <h1 style={{ fontSize: 60 }}>Your Claims, Our <br />Commitment</h1>
+          <h1 style={{ fontSize: 30 }}>Your Claims, Our <br />Commitment</h1>
           <p>Valued submission at your service.</p>
           <button className="banner1-btn" onClick={()=>window.location.href="/contact"}>Appointment</button>
         </div>
         <div id="banner2-div">
-          <img width={300} style={{ marginLeft: "-17%" }} src={larki}></img>
+          <img width={"40%"} style={{ marginLeft: "-17%" }} src={larki}></img>
           <div className="description">
             <p>"Top-notch service! Valued Claim<br /> Submission delivers impeccable <br />results. Their expertise and <br />efficiency have transformed our<br /> billing process, boosting revenue<br /> and minimizing errors. Highly<br /> recommended!"
             </p>
@@ -45,18 +45,18 @@ const Home = () => {
       </div>
 
       <div id='section'>
-        <Card text={<><img width={50} src={img1} /><h1 style={{ fontSize: 30 }}>More experience</h1> <br />
+        <Card text={<><img width={"30%"} src={img1} /><h1 style={{ fontSize: "100%" }}>More experience</h1> <br />
           <p>We have 3+ Years of experience in the medical billing field.</p></>} />
-        <Card text={<><img width={50} src={img2} /><h1 style={{ fontSize: 30 }}>Daily innovation</h1> <br />
+        <Card text={<><img width={"30%"} src={img2} /><h1 style={{ fontSize:  "100%" }}>Daily innovation</h1> <br />
           <p>We are a diverse company that provides Medical Services and IT solutions aswell..</p></>} />
-        <Card text={<><img width={50} src={img3} /><h1 style={{ fontSize: 30 }}>You come first</h1> <br />
+        <Card text={<><img width={"30%"} src={img3} /><h1 style={{ fontSize:  "100%" }}>You come first</h1> <br />
           <p>Valued Claim Submission treats its customers equally and professionally..</p></>} />
       </div>
 
 
       <div id="sections-div">
         <div id="banner3-div">
-          <img width={600} src={doctor}></img>
+          <img width={"100%"} src={doctor}></img>
         </div>
         <div id="banner4-div">
         <div className="description">
@@ -92,14 +92,11 @@ const Home = () => {
           <button className="banner1-btn cursor-hand" onClick={()=>window.location.href='tel:+15182824526'}>Call Us </button>
         </div>
         <div className="banner6">
-          <Card text={<><img width={50} src={img7} /><h1 style={{ color: "black" }}>
-            Expertise and Experience:</h1> <p>Benefit from our extensive experience in the medical billing industry.</p> </>} />
-            
-        </div>
-        <div className="banner6">
-          <Card text={<><img width={50} src={img9} /><h1 style={{ color: "black" }}>
-            Tailored Solutions:</h1>  <p>We understand that every healthcare practice is unique.</p> </>} />
+          <img width={50} src={img7} /><h1 style={{ color: "black" }}>
+            Expertise and Experience:</h1> <p>Benefit from our extensive experience in the medical billing industry.</p> 
            
+          <img width={50} src={img9} /><h1 style={{ color: "black" }}>
+            Tailored Solutions:</h1>  <p>We understand that every healthcare practice is unique.</p> 
            
         </div>
         
@@ -107,9 +104,9 @@ const Home = () => {
 
       <div id='section4'>
         <div id="banner5">
-          <Card text={<img width={"100%"} src={img11} />} />
-          <Card text={<img width={"100%"} src={img12} />} />
-          <Card text={<img width={"100%"} src={img13} />} />
+          <img width={"30%"} src={img11} />
+          <img width={"30%"} src={img12} />
+          <img width={"30%"} src={img13} />
         </div>
       </div>
     <div id='footer'>
