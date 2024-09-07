@@ -1,24 +1,25 @@
-import React from 'react'
-import Button from './Button'
-import "../App.css"
-import larki from "../images/larki.png"
+import React from 'react';
+import Button from './Button';
+import "../App.css";
+import larki from "../images/larki.png";
 import doctor from "../images/doctor.png";
-import Card from "../components/Card"
-import img1 from "../images/15959.webp"
-import img2 from "../images/5548129.png"
-import img3 from "../images/7373278.png"
-import img4 from "../images/Gemini_Generated_Image_egzimjegzimjegzi.jpeg"
-import img5 from "../images/Gemini_Generated_Image_v0l3kev0l3kev0l3.jpeg"
-import img6 from "../images/New-Project-1.jpg"
-import img7 from "../images/user-06.jpg"
-import img8 from "../images/images (1).png"
-import img9 from "../images/365318947.jpg"
-import img10 from "../images/istockphoto-1256489977-170x170.jpg"
-import img11 from "../images/HIPPA-Compliance.png-1024x585.webp"
-import img12 from "../images/CMRS_Study_Guide-2.jpg"
-import img13 from "../images/images-1.jpeg"
-import callIcon from "../images/phone-call-icon-design-in-blue-circle-png.webp"
-import emailIcon from "../images/mail-1454731_640.webp"
+import Card from "../components/Card";
+import img1 from "../images/15959.webp";
+import img2 from "../images/5548129.png";
+import img3 from "../images/7373278.png";
+import img4 from "../images/Gemini_Generated_Image_egzimjegzimjegzi.jpeg";
+import img5 from "../images/Gemini_Generated_Image_v0l3kev0l3kev0l3.jpeg";
+import img6 from "../images/New-Project-1.jpg";
+import img7 from "../images/user-06.jpg";
+import img8 from "../images/images (1).png";
+import img9 from "../images/365318947.jpg";
+import img10 from "../images/istockphoto-1256489977-170x170.jpg";
+import img11 from "../images/HIPPA-Compliance.png-1024x585.webp";
+import img12 from "../images/CMRS_Study_Guide-2.jpg";
+import img13 from "../images/images-1.jpeg";
+import callIcon from "../images/phone-call-icon-design-in-blue-circle-png.webp";
+import emailIcon from "../images/mail-1454731_640.webp";
+
 
 const Home = () => {
    
@@ -29,13 +30,13 @@ const Home = () => {
           <h2>Here we are</h2>
           <br />
           <h1 style={{ fontSize: 30 }}>Your Claims, Our <br />Commitment</h1>
-          <p>Valued submission at your service.</p>
+          <p>Medical Care submission at your service.</p>
           <button className="banner1-btn" onClick={()=>window.location.href="/contact"}>Appointment</button>
         </div>
         <div id="banner2-div">
           <img width={"40%"} style={{ marginLeft: "-17%" }} src={larki}></img>
           <div className="description">
-            <p>"Top-notch service! Valued Claim<br /> Submission delivers impeccable <br />results. Their expertise and <br />efficiency have transformed our<br /> billing process, boosting revenue<br /> and minimizing errors. Highly<br /> recommended!"
+            <p>"Top-notch service! Medical Care<br /> Submission delivers impeccable <br />results. Their expertise and <br />efficiency have transformed our<br /> billing process, boosting revenue<br /> and minimizing errors. Highly<br /> recommended!"
             </p>
             <p style={{ color: "blue", fontWeight: "bold" }}>
               Dr.Alice
@@ -45,14 +46,15 @@ const Home = () => {
       </div>
 
       <div id='section'>
-        <Card text={<><img width={"30%"} src={img1} /><h1 style={{ fontSize: "100%" }}>More experience</h1> <br />
-          <p>We have 3+ Years of experience in the medical billing field.</p></>} />
-        <Card text={<><img width={"30%"} src={img2} /><h1 style={{ fontSize:  "100%" }}>Daily innovation</h1> <br />
-          <p>We are a diverse company that provides Medical Services and IT solutions aswell..</p></>} />
-        <Card text={<><img width={"30%"} src={img3} /><h1 style={{ fontSize:  "100%" }}>You come first</h1> <br />
-          <p>Valued Claim Submission treats its customers equally and professionally..</p></>} />
+        <div id="banner5">
+          <Card text={<><img width={"50%"} src={img1} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          More experience</h1><p>We have 3+ Years of experience in the medical billing field.</p> <br /></>} />
+          <Card text={<><img width={"50%"} src={img2} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          Daily innovation</h1><p>We are a diverse company that provides Medical Services and IT solutions aswell..</p> <br /></>} />
+          <Card text={<><img width={"50%"} src={img3} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          You come first</h1><p>Medical Care Submission treats its customers equally and professionally..</p> <br /></>} />
+        </div>
       </div>
-
 
       <div id="sections-div">
         <div id="banner3-div">
@@ -62,13 +64,13 @@ const Home = () => {
         <div className="description">
           <h1 style={{ fontSize: 30 }}>Best Healthcare</h1>
           <br/>
-          <p>Welcome to Valued Claim Submission, where excellence meets<br /> efficiency in healthcare revenue management. With a<br /> dedicated team of seasoned professionals, we specialize in<br /> streamlining medical billing processes to optimize<br /> reimbursements for our clients. Leveraging cutting-edge <br />technology and industry insights, we ensure seamless revenue<br /> cycle management, allowing healthcare providers to focus on<br /> patient care with confidence..</p>
+          <p>Welcome to Medical Care Submission, where excellence meets<br /> efficiency in healthcare revenue management. With a<br /> dedicated team of seasoned professionals, we specialize in<br /> streamlining medical billing processes to optimize<br /> reimbursements for our clients. Leveraging cutting-edge <br />technology and industry insights, we ensure seamless revenue<br /> cycle management, allowing healthcare providers to focus on<br /> patient care with confidence..</p>
           <br />
           <h1 style={{ fontSize: 30 }}>Accurate</h1>
           <p>Our commitment to accuracy, compliance, and client  <br /> satisfaction sets us apart..</p>
           <br />
           <h1 style={{ fontSize: 30 }}>Trustworthy</h1>
-          <p>Trust Valued Claim Submission for unparalleled expertise <br />and results-driven solutions..</p>
+          <p>Trust Mdeical Care Submission for unparalleled expertise <br />and results-driven solutions..</p>
         </div>
         </div>
       </div>
@@ -87,7 +89,7 @@ const Home = () => {
 
       <div id='section3'>
         <div id="section3-part1">
-          <div id="heading"><h1 style={{ textAlign: 'left', fontSize: 50 }}>Why Choose VCS?</h1></div>
+          <div id="heading"><h1 style={{ textAlign: 'left', fontSize: 50 }}>Why Choose MCS?</h1></div>
           <p>We assure you that we can boost your revenue cycle in a spectacular way.</p>
           <button className="banner1-btn cursor-hand" onClick={()=>window.location.href='tel:+15182824526'}>Call Us </button>
         </div>
@@ -102,13 +104,14 @@ const Home = () => {
         
       </div>
 
-      <div id='section4'>
+      <div id='section2'>
         <div id="banner5">
-          <img width={"30%"} src={img11} />
-          <img width={"30%"} src={img12} />
-          <img width={"30%"} src={img13} />
-        </div>
+         <Card text={<img width={"100%"} src={img11} />}/>
+         <Card text={<img width={"100%"} src={img12} />}/>
+         <Card text={<img width={"100%"} src={img13} />}/> </div>
       </div>
+
+
     <div id='footer'>
       <p>Author: Hege Refsnes<br/></p>
       <div id='email'>

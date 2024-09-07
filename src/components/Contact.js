@@ -12,15 +12,9 @@ const Contact = () => {
   return (
     <div id='contact'>
       <div id='sectionCard'>
-       
         <div id="banner5">
-          <Card text={<><img width={"50%"} src={locationImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
-          Our Location</h1> <p>30N GOULD st STE N,<br /> Sheridan, WY82801</p>
-            </>} />
-          <Card text={<><img width={"50%"} src={emailImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
-          Our Email Addres</h1>  <p>support@valuedclaim<br/>submission.com</p></>} />
-          <Card text={<><img width={"60%"} src={contactImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
-          Our Contact Number</h1> <p>+12605730264</p></>} />
+          <Card text={<><img width={"50%"} src={contactImage} /><h1 style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+          Our Contact Number</h1> <p><a href='tel:+15182824526'>+15182824526</a></p></>} />
         </div>
       </div>
 
